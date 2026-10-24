@@ -8,3 +8,18 @@ data/experiments.sqlite3-shm
 data/experiments.sqlite3-wal
 frontend/node_modules/
 frontend/dist/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and caches
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+
+# Generated build metadata
+*.tsbuildinfo
+src/*.egg-info/
